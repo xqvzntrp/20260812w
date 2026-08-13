@@ -1,0 +1,28 @@
+LOAD    group.csv
+LOAD    definition.csv
+LOAD    group_definition.csv
+RUN schema.sql
+RUN compiler.sql
+EXPORT  compiled_statement
+PUBLISH export-package
+
+
+GROUP
+    GROUP_ID
+    GROUP_NAME
+    GROUP_BY
+
+DEFINITION
+    DEFINITION_ID
+    DEFINITION_NAME
+
+GROUP_DEFINITION
+    GROUP_ID
+    DEFINITION_ID
+    INPUT_EXPRESSION
+    AGGREGATION
+    CONDITION
+    EXPRESSION
+
+
+DO schema.sql
