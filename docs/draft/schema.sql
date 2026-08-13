@@ -19,8 +19,8 @@
 --   PUBLISH export-package
 
 
-DROP TABLE IF EXISTS group_definition;
-DROP TABLE IF EXISTS definition;
+DROP TABLE IF EXISTS "group_definition";
+DROP TABLE IF EXISTS "definition";
 DROP TABLE IF EXISTS "group";
 
 
@@ -31,13 +31,13 @@ CREATE TABLE "group" (
 );
 
 
-CREATE TABLE definition (
+CREATE TABLE "definition" (
     definition_id    TEXT PRIMARY KEY,
     definition_name  TEXT NOT NULL
 );
 
 
-CREATE TABLE group_definition (
+CREATE TABLE "group_definition" (
     group_id          TEXT NOT NULL,
     definition_id     TEXT NOT NULL,
     input_expression  TEXT NOT NULL,
@@ -54,5 +54,5 @@ CREATE TABLE group_definition (
         REFERENCES "group" (group_id),
 
     FOREIGN KEY (definition_id)
-        REFERENCES definition (definition_id)
+        REFERENCES "definition" (definition_id)
 );
