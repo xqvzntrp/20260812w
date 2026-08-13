@@ -1,0 +1,51 @@
+DEFINITION_ID,DEFINITION_NAME
+view01_group_definition,Group Definition
+view02_dependency,Dependency
+view03_output_definition,Output Definition
+view04_dependent_definition,Dependent Definition
+view05_input_definition,Input Definition
+view06_source_definition,Source Definition
+view07_internal_definition,Internal Definition
+view08_isolated_definition,Isolated Definition
+view09_dependency_count,Dependency Count
+view10_input_count,Input Count
+view11_leaf_dependency,Leaf Dependency
+view12_output_dependency,Output Dependency
+view13_internal_dependency,Internal Dependency
+view14_boundary_definition,Boundary Definition
+view15_definition_role,Definition Role
+view16_group_role_count,Group Role Count
+view17_group_boundary_count,Group Boundary Count
+view18_group_dependency_count,Group Dependency Count
+view19_group_definition_count,Group Definition Count
+view20_group_density,Group Density
+view21_group_density_complete,Complete Group Density
+view22_group_complexity,Group Complexity
+view23_group_shape,Group Shape
+view24_group_shape_count,Group Shape Count
+view25_two_node_cycle,Two Node Cycle
+view26_self_cycle,Self Cycle
+view27_recursive_dependency,Recursive Dependency
+view28_cycle,Cycle
+view29_group_cycle,Group Cycle
+view30_acyclic_group,Acyclic Group
+view31_group_validity,Group Validity
+view32_compilable_group,Compilable Group
+view33_compilable_definition,Compilable Definition
+view34_compilable_output_definition,Compilable Output Definition
+view35_compiled_statement,Compiled Statement Base
+view36_compiled_statement_condition,Compiled Statement Condition
+view37_compiled_statement_group_by,Compiled Statement Group By
+view38_select_expression,Select Expression
+view39_select_clause,Select Clause
+view40_from_clause,From Clause
+view41_where_clause,Where Clause
+view42_group_by_clause,Group By Clause
+view43_compiled_statement,Compiled Statement
+view44_compiled_statement_export,Compiled Statement Export
+compiled_statement,Compiled Statement Public
+view46_compilation_result,Compilation Result
+view47_compilation_diagnostic,Compilation Diagnostic
+view48_group_compilation_status,Group Compilation Status
+view49_compilation_summary,Compilation Summary
+view50_model_compilation_status,Model Compilation Status
